@@ -1,0 +1,13 @@
+<h1>Users</h1>
+<table>
+  <tr>
+    <th>User ID</th>
+    <th>User Name</th>
+  </tr>
+  {% for user in records %}
+  <tr>
+    <td>{{ user.0 }}</td>
+    <td>{{ user.1 }}</td>
+  </tr>
+  {% endfor %}
+</table>
